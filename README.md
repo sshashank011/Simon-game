@@ -1,21 +1,87 @@
-# Simon Game
+<!-- Fancy Title with Typing Effect -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=3000&pause=500&color=00F7D3&center=true&vCenter=true&width=800&lines=🎮+Simon+Game+3D+Edition;Memory+Challenge+with+Animations;Built+with+HTML+%2B+CSS+%2B+JavaScript" alt="Typing SVG">
+</h1>
 
-This repository contains the Simon Game project implemented with HTML, CSS, and JavaScript.
+---
 
-## Files
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-orange?logo=html5&style=for-the-badge">
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3&style=for-the-badge">
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+</p>
 
-- `simon.html`: The main HTML file for the Simon game UI.
-- `simon.css`: Stylesheet for the Simon game.
-- `simon.js`: JavaScript logic for the Simon game.
+<p align="center">
+  <img src="https://media.giphy.com/media/fAnzw6YK33jMwzp5wp/giphy.gif" width="500" alt="3D Simon Game Demo">
+</p>
 
-## How to Run
+---
 
-Open `simon.html` in a web browser to play the Simon game. Press any key to start the game and follow the sequence of button flashes.
+## 📌 Features  
+✨ **3D Inspired Buttons** – glowing hover effect & pressed animation  
+✨ **Dynamic Difficulty** – sequence grows each round  
+✨ **Smooth Animations** – flashes & sounds with every step  
+✨ **Game Over Shake** – animated red flash + restart  
 
-## Description
+---
 
-The Simon game challenges the player to remember and repeat an increasingly long sequence of button presses. The game starts when the user presses any key. Each level adds a new random button to the sequence. The player must click the buttons in the correct order to progress. If the player makes a mistake, the game ends and can be restarted by pressing any key.
+## 🛠️ Tech Stack  
+**Frontend:** HTML, CSS, JavaScript  
 
-## Repository Link
+---
 
-The code is pushed to the GitHub repository: https://github.com/sshashank011/Simon-game
+## 📂 Project Structure  
+Simon-game/
+│── README.md
+│── simon.html
+│── simon.css
+│── simon.js
+│
+├── assets/
+│   └── demo.gif        # Gameplay demo (optional)
+│
+└── sounds/
+    ├── green.mp3
+    ├── red.mp3
+    ├── yellow.mp3
+    └── blue.mp3
+## 📊 Game Flow
+
+          +--------------------+
+          |   User Presses Key |
+          +---------+----------+
+                    |
+             Start New Game
+                    |
+          +---------v----------+
+          |   Show Sequence    |
+          +---------+----------+
+                    |
+          +---------v----------+
+          | User Repeats Steps |
+          +---------+----------+
+                    |
+     +--------------+--------------+
+     |                             |
+ Correct Sequence           Wrong Sequence
+     |                             |
+     v                             v
+ Next Level                Game Over + Restart
+graph TD
+   A[Start Game 🎬] --> B[Show Random Sequence ✨]
+   B --> C[User Repeats Steps 🖱️]
+   C -->|Correct| D[Next Level 🚀]
+   C -->|Wrong| E[Game Over 💥]
+   E --> A
+
+
+---
+
+## ▶️ How to Run  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/sshashank011/Simon-game.git
+   cd Simon-game
+
+
