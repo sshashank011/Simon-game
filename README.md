@@ -16,7 +16,12 @@
   <img src="https://media.giphy.com/media/fAnzw6YK33jMwzp5wp/giphy.gif" width="500" alt="3D Simon Game Demo">
 </p>
 
----
+## 🚀 Live Demo button
+<p align="center">
+  <a href="https://sshashank011.github.io/Simon-game" target="_blank">
+    <img src="https://img.shields.io/badge/🎮_Play_Now-Live_Demo-success?style=for-the-badge" alt="Live Demo">
+  </a>
+</p>
 
 ## 📌 Features  
 ✨ **3D Inspired Buttons** – glowing hover effect & pressed animation  
